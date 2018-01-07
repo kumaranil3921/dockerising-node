@@ -1,0 +1,36 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "user-management",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumaranil3921/dockersing-node.git"
+  },
+  "author": "anil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumaranil3921/dockersing-node/issues"
+  },
+  "engines": {
+    "node": "7.8.0"
+  },
+  "homepage": "https://github.com/kumaranil3921/dockersing-node#readme",
+  "dependencies": {
+    "async": "^2.4.0",
+    "bcrypt": "^1.0.2",
+    "boom": "^4.3.1",
+    "dotenv": "^4.0.0",
+    "hapi": "^16.1.1",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.2.0",
+    "joi": "^10.4.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.8",
+    "vision": "^4.1.1"
+  }
+}
