@@ -1,4 +1,5 @@
-'use strict';
+const swagger = require('./swagger');
+
 module.exports = {
-    register: require('./swagger')
+  register: swagger,
 };

@@ -1,5 +1,5 @@
-'use strict';
+const adminSchema = require('./admin.js');
 
 module.exports = {
-    Admins: require('./admin.js')
-}
+  Admins: adminSchema,
+};

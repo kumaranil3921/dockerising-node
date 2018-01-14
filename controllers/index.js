@@ -1,5 +1,5 @@
-'use strict';
+const adminController = require('./adminController.js');
 
-module.exports={
-    AdminController: require('./adminController.js')
-}
+module.exports = {
+  AdminController: adminController,
+};
