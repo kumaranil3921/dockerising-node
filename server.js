@@ -8,7 +8,7 @@ const Bootstrap = require('./utilityFunctions/bootstrap.js');
 
 const server = new hapi.Server({
   app: {
-    name: Config.APP_CONSTANTS.SERVER.APP_NAME,
+    name: process.env.PORT || Config.APP_CONSTANTS.SERVER.APP_NAME,
   },
   debug: {
     request: [
